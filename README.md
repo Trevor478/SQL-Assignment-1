@@ -1,1 +1,10 @@
-# SQL-Assignment-1
+select population from countries where country="France";
+select country, population from countries where country ="Sweden" or country="Norway" or country="Denmark" order by country;
+select country, population from countries where population >= 200000000;
+select * from countries where country like 'United%';
+select * from countries where country like 'B%';
+select * from countries where country like '%y';
+select * from countries where country like '%x%';
+select * from countries where country like 'C%ia';
+select * from countries where country like '%oo%';
+select * from countries where country like '%o__o%';
